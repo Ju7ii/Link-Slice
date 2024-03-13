@@ -34,20 +34,24 @@ A simple web application for generating and resolving long URLs into short URLs.
 </ul>
 
 ## Installation:
-Clone the repository: git clone https://github.com/Ju7ii/Link-Slice.git
-Navigate to the project directory: cd Link-Slice
-Install dependencies: npm install
-Configure the database in dbConfig.js.
-Start the server: node server.js
-Usage:
 
-Utilize API endpoints to interact with the backend.
-Use /shortenUrl endpoint to generate short URLs by sending a POST request with the original URL as a parameter.
-Use /:shortUrl endpoint to resolve short URLs by sending a GET request with the short URL as a parameter.
+<ol>
+  <li>Clone the repository: git clone https://github.com/Ju7ii/Link-Slice.git</li>
+  <li>Navigate to the project directory: cd Link-Slice</li>
+  <li>
+    Install dependencies: look in folders <a href="https://github.com/Ju7ii/Link-Slice/tree/main/client">client</a> and <a href="https://github.com/Ju7ii/Link-Slice/tree/main/server">server</a> and download the dependencies from the package.json files
+  </li>
+  <li>Configure the database in <a href="https://github.com/Ju7ii/Link-Slice/blob/main/server/dbConfig.js">dbConfig.js</a></li>
+  <li>Start the server: node server.js</li>
+</ol>
 
-Code Examples:
+## Usage:
 
-- 
+<p>Utilize API endpoints to interact with the backend.</p>
+<ul>
+  <li>Use /shortenUrl endpoint to generate short URLs by sending a POST request with the original URL as a parameter.</li>
+  <li>Use /:shortUrl endpoint to resolve short URLs by sending a GET request with the short URL as a parameter.</li>
+</ul>
 
-License:
-This project is licensed under the MIT License. See LICENSE for more details.
+## License:
+<p>This project is licensed under the MIT License. See LICENSE for more details.</p>
