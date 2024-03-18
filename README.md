@@ -42,7 +42,12 @@ A simple web application for generating and resolving long URLs into short URLs.
     Install dependencies: look in folders <a href="https://github.com/Ju7ii/Link-Slice/tree/main/client">client</a> and <a href="https://github.com/Ju7ii/Link-Slice/tree/main/server">server</a> and download the dependencies from the package.json files
   </li>
   <li>Configure the database in <a href="https://github.com/Ju7ii/Link-Slice/blob/main/server/dbConfig.js">dbConfig.js</a></li>
-  <li>Start the server: node server.js</li>
+  <li>Start the servers:
+    <ul>
+      <li>cd server -> node index.js</li>
+      <li>cd client -> npm start</li>
+    </ul>
+  </li>
 </ol>
 
 ## Usage:
